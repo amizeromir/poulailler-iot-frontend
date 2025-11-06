@@ -10,9 +10,8 @@ export default function Login() {
     e.preventDefault();
     try {
       const res = await axios.post(`${import.meta.env.VITE_API_URL}/auth/login`, { email, password });
-      alert(`Bienvenue ${res.data.user.name}`);
       localStorage.setItem("user", JSON.stringify(res.data.user));
-      window.location.href = "/";
+      window.location.href =  "/dashboard";
     } catch (err) {
       setError(err.response?.data?.message || "Erreur de connexion");
     }
