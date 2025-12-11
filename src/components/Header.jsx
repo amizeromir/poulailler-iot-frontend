@@ -27,12 +27,15 @@ export default function Header() {
             Tableau de Bord
           </Link>
           
+          {/* L'onglet "Capteurs" a été retiré.
+            
           <Link 
             to="/sensors" 
             className="hover:text-green-200 transition font-medium text-lg px-6 py-2"
           >
             Capteurs
           </Link>
+          */}
           
           <Link 
             to="/users" 
