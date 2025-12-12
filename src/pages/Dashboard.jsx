@@ -15,7 +15,7 @@ const SENSOR_NAMES = {
     color: "from-green-400 to-emerald-500"
   },
   3: {
-    name: "Poules Pondeuses",
+    name: "Poulailler Poules Pondeuses",
     icon: "🥚",
     description: "Zone des poules pondeuses pour les œufs",
     color: "from-orange-400 to-red-500"
